@@ -14,8 +14,8 @@ This source code is a part of BSF Skeleton (https://github.com/leonid-sokolinsky
 #define PP_EPS 1E-9 // Precision
 
 //-------------------------- Outpoot Parameters ---------------------------
-#define PP_OUTPUT_LIMIT 11 // Number of Elements to output
-#define PP_MATRIX_OUTPUT   // Output Matrix
+#define PP_OUTPUT_LIMIT 0 // Number of Elements to output
+// #define PP_MATRIX_OUTPUT   // Output Matrix
 
 //-------------------------- Macroses ---------------------------
 #define PF_MIN(x, y) (x < y ? x : y)

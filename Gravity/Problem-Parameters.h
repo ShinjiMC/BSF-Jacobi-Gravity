@@ -8,8 +8,8 @@ This source code is a part of BSF Skeleton
 ==============================================================================*/
 
 //=========================== Problem Parameters =========================
-#define PP_SPACE_DIMENSION 3                                                     // Dimension of space = 3 (change is prohibited)
-#define PP_LARGE_MASS_POINTS_OUTPUT                                              // Output Paramrters of Large Mass Points
+#define PP_SPACE_DIMENSION 3 // Dimension of space = 3 (change is prohibited)
+// #define PP_LARGE_MASS_POINTS_OUTPUT                                              // Output Paramrters of Large Mass Points
 #define PP_NUNBER_OF_LARGE_MASS_POINTS_PER_DIMENSION 500                         // Number of large mass points PD_Y[*] per one dimension
 #define PP_STEP 1E2                                                              // Distance between coodinates of neighbour points in one dimension
 #define PP_N (PP_NUNBER_OF_LARGE_MASS_POINTS_PER_DIMENSION * PP_SPACE_DIMENSION) // Number of large mass points PD_Y[*]
@@ -19,4 +19,4 @@ This source code is a part of BSF Skeleton
 #define PP_BIG_MASS 1E12                                                         // Mass of bvig mass point PD_Y[*]
 //-------------------------- Outpoot Parameters ---------------------------
 #define PP_ITER_COUNT 10
-#define PP_OUTPUT_LIMIT 25 // Maximal count of points to output
+#define PP_OUTPUT_LIMIT 0 // Maximal count of points to output
