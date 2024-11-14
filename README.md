@@ -48,6 +48,20 @@ Run the compiled program with the desired number of nodes:
 mpirun -np <number_of_nodes> ./BSF_Gravity
 ```
 
+### Instructions for Execution of Runners:
+
+1. Save each script in a file with the `.sh` extension (e.g., `run_bsf_jacobi.sh` and `run_bsf_gravity.sh`).
+2. Grant execution permissions to the scripts:
+   ```sh
+   chmod +x run_bsf_jacobi.sh
+   chmod +x run_bsf_gravity.sh
+   ```
+3. Run each script from the terminal:
+   ```sh
+   ./run_bsf_jacobi.sh
+   ./run_bsf_gravity.sh
+   ```
+
 ## Customization for Data Size and Output
 
 ### Jacobi Method
